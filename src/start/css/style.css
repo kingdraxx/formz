@@ -66,4 +66,37 @@
 
 .name-flex {
   display: flex;
+  justify-content: space-between;
+}
+
+.name-flex .form-group {
+  width: 45%;
+}
+
+.form-wrap .form-group input {
+  padding: 1em;
+  width: 100%;
+  margin-top: 1.5em;
+  /* padding-left: 25px; */
+  color: rgb(128, 97, 128);
+}
+
+.page-right {
+  width: 75%;
+}
+
+.form-wrap {
+  margin-top: 3em;
+}
+
+.btn {
+  padding: 0.8em 3.2em;
+  background-color: rgb(128, 97, 128);
+  color: white;
+}
+
+button {
+  margin-top: 2em;
+  border-radius: 4px;
+  text-decoration: white;
 }
