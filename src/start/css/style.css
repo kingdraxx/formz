@@ -21,16 +21,13 @@
   height: 6em;
   width: 6em;
   margin: auto;
-  /* padding: 6em; */
   margin-bottom: 2em;
   border-radius: 50px;
 }
-.page-left {
-}
+
 .formz {
   font-size: 6em;
   color: white;
-  /* margin-bottom: 1em; */
 }
 .simple {
   font-size: 1.7em;
@@ -56,7 +53,6 @@
 }
 
 #page-flex-right {
-  /* background-color: rgb(128, 97, 128); */
   height: 100vh;
   width: 50%;
   display: flex;
@@ -77,7 +73,6 @@
   padding: 1em;
   width: 100%;
   margin-top: 1.5em;
-  /* padding-left: 25px; */
   color: rgb(128, 97, 128);
 }
 
@@ -99,4 +94,92 @@ button {
   margin-top: 2em;
   border-radius: 4px;
   text-decoration: white;
+}
+
+/* CONNTACT */
+a {
+  text-decoration: none;
+}
+#navbar {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  margin: 2.5em;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  gap: 1em;
+}
+
+.form {
+  font-size: 1em;
+  color: rgb(180, 142, 180);
+}
+.dott {
+  background-color: rgb(180, 142, 180);
+  height: 2em;
+  width: 2em;
+  margin: auto;
+  border-radius: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.login {
+  padding: 0.5em 2em;
+  background-color: rgb(128, 97, 128);
+  color: white;
+  border-radius: 4px;
+}
+#row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+.lines {
+  display: flex;
+  gap: 1.5em;
+}
+.liney1 {
+  padding: 6em;
+  background-color: #806180;
+}
+.liney2 {
+  padding: 3em;
+  background-color: rgb(146, 111, 146);
+}
+.liney3 {
+  padding: 1.5em;
+  background-color: rgb(177, 123, 177);
+}
+.liney4 {
+  padding: 1.5em;
+  background-color: rgb(177, 123, 177);
+}
+#forms .form-group input {
+  padding: 1em;
+  width: 40vw;
+  margin-top: 1.5em;
+  color: rgb(128, 97, 128);
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #806180;
+}
+#forms .form-group textarea {
+  padding: 1em;
+  width: 40vw;
+  margin-top: 1.5em;
+  color: rgb(128, 97, 128);
+  border-radius: 6px;
+}
+.contact {
+  font-size: 2em;
+  color: #806180;
+  padding-bottom: 1em;
+  text-align: center;
 }
