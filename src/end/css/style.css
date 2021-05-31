@@ -2,4 +2,237 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#page-flex {
+  display: flex;
+}
+#page-flex-left {
+  background-color: rgb(128, 97, 128);
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dot {
+  background-color: rgb(180, 142, 180);
+  height: 6em;
+  width: 6em;
+  margin: auto;
+  margin-bottom: 2em;
+  border-radius: 50px;
+}
+
+.formz {
+  font-size: 6em;
+  color: white;
+}
+.simple {
+  font-size: 1.7em;
+  color: white;
+  margin-top: 1.8em;
+  text-align: center;
+}
+
+.line1 {
+  padding: 18px;
+  background-color: rgb(128, 97, 128);
+  margin-bottom: 1em;
+}
+.line2 {
+  padding: 9px;
+  background-color: rgb(128, 97, 128);
+  margin-bottom: 1em;
+}
+.line3 {
+  padding: 4.5px;
+  background-color: rgb(128, 97, 128);
+  margin-bottom: 1em;
+}
+
+#page-flex-right {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-flex .form-group {
+  width: 45%;
+}
+
+.form-wrap .form-group input {
+  padding: 1em;
+  width: 100%;
+  margin-top: 1.5em;
+  color: rgb(128, 97, 128);
+}
+
+.page-right {
+  width: 75%;
+}
+
+.form-wrap {
+  margin-top: 3em;
+}
+
+.btn {
+  padding: 0.8em 3.2em;
+  background-color: rgb(128, 97, 128);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  filter: brightness(130%);
+}
+
+button {
+  margin-top: 2em;
+  border-radius: 4px;
+  text-decoration: white;
+}
+
+/* CONNTACT */
+a {
+  text-decoration: none;
+}
+#navbar {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  padding: 2.5em;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  width: 210px;
+  justify-content: flex-start;
+}
+
+.form {
+  font-size: 1em;
+  color: rgb(180, 142, 180);
+}
+.dott {
+  background-color: rgb(180, 142, 180);
+  height: 2em;
+  width: 2em;
+  border-radius: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  width: 120px;
+  justify-content: flex-end;
+}
+.login {
+  padding: 0.5em 2em;
+  background-color: rgb(128, 97, 128);
+  color: white;
+  border-radius: 4px;
+}
+#row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+.lines {
+  display: flex;
+  gap: 1.5em;
+}
+.liney1 {
+  padding: 6em;
+  background-color: #806180;
+}
+.liney2 {
+  padding: 3em;
+  background-color: rgb(146, 111, 146);
+}
+.liney3 {
+  padding: 1.5em;
+  background-color: rgb(177, 123, 177);
+}
+.liney4 {
+  padding: 1.5em;
+  background-color: rgb(177, 123, 177);
+}
+#forms .form-group input {
+  padding: 1em;
+  width: 40vw;
+  margin-top: 1.5em;
+  color: rgb(128, 97, 128);
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #806180;
+}
+#forms .form-group textarea {
+  padding: 1em;
+  width: 40vw;
+  margin-top: 1.5em;
+  color: rgb(128, 97, 128);
+  border-radius: 6px;
+}
+.contact {
+  font-size: 2em;
+  color: #806180;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+input,
+textarea {
+  transition: 0.3s ease-in-out;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 0px 1px 5px 2px #58445847;
+}
+
+/* LOGIN PAGE */
+#login-flex {
+  display: flex;
+  height: 85.5vh;
+  justify-content: space-between;
+  background-color: gainsboro;
+}
+.linex1 {
+  background-color: #806180;
+  width: calc(120px + 2.5em);
+}
+.linex2 {
+  background-color: #806180;
+  width: calc(210px + 2.5em);
+}
+.log {
+  font-size: 2em;
+  color: #806180;
+}
+#form-login {
+  background-color: white;
+  width: 50%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+#forms {
+  padding: 8em;
 }
