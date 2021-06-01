@@ -233,6 +233,29 @@ textarea:focus {
   justify-content: center;
   margin: auto;
 }
-#forms {
+#formss .form-group input {
+  padding: 1em;
+  width: 40vw;
+  margin-top: 1.5em;
+  color: rgb(128, 97, 128);
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #806180;
+}
+#formss {
   padding: 8em;
+}
+/* REGISTER */
+#formz .form-group input {
+  padding: 1em;
+  width: 40vw;
+  margin-top: 1.5em;
+  color: rgb(128, 97, 128);
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #806180;
+}
+
+#formz {
+  padding: 6em;
 }
