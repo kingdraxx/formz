@@ -150,7 +150,7 @@ ul {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  margin-top: 5em;
+  margin-top: 2em;
 }
 .lines {
   display: flex;
@@ -175,7 +175,7 @@ ul {
 #forms .form-group input {
   padding: 1em;
   width: 40vw;
-  margin-top: 1.5em;
+  margin-top: 1.7em;
   color: rgb(128, 97, 128);
   border-radius: 6px;
   outline: none;
@@ -184,7 +184,7 @@ ul {
 #forms .form-group textarea {
   padding: 1em;
   width: 40vw;
-  margin-top: 1.5em;
+  margin-top: 1.7em;
   color: rgb(128, 97, 128);
   border-radius: 6px;
 }
